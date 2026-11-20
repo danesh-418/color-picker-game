@@ -6,8 +6,8 @@ body {
     border-color: black;
 }
 .container {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 #r {
     accent-color: red;
