@@ -44,5 +44,6 @@ submit.onclick = function () {
 again.onclick = function () {
   randColor();
   setColor(target, target_r, target_g, target_b);
+  setColor(guess, 255, 255, 255);
   results.innerText = "";
 };
