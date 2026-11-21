@@ -21,7 +21,7 @@ function randColor () {
   target_b = randint(0, 255);
 }
 function setColor (elem, r, g, b) {
-  elem.style.backgroundColor = `rgb(${target_r}, ${g}, ${b})`;
+  elem.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
   elem.style.color = `rgb(${255-r}, ${255-g}, ${255-b})`;
 }
 function colorAccuracy () {
